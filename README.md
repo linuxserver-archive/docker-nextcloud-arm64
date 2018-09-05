@@ -83,6 +83,7 @@ If updating to nextcloud 12 you will need to comment out line `add_header X-Fram
 
 ## Versions
 
++ **05.09.18:** Rebase to alpine 3.8.
 + **11.06.18:** Use latest rather than specific version for initial install.
 + **26.04.18:** Bump default install to 13.0.1.
 + **06.02.18:** Bump default install to 13.0.0.
@@ -91,7 +92,7 @@ If updating to nextcloud 12 you will need to comment out line `add_header X-Fram
 + **15.10.17:** Sed php.ini for opcache requirements in newer nextcloud versions.
 + **20.09.17:** Bump default install to 12.0.3.
 + **19.08.17:** Bump default install to 12.0.2.
-+ **30.05.17:** Rebase to alpine 3.6
++ **30.05.17:** Rebase to alpine 3.6.
 + **22.05.17:** Update to nextcloud 12.0, adding required dependecies and note about commenting out SAMEORIGIN; line.
 + **03.05.17:** Update to php 7.1x.
 + **07.03.17:** Initial Release
